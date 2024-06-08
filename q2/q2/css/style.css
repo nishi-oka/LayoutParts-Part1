@@ -1,2 +1,19 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.outer {
+  display: flex;
+  gap: 60px;
+	padding: 20px;
+	justify-content: center;
+}
+
+.list1, .list2, .list3 {
+  width: 200px;
+  padding: 10px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  background: #d2b48c;
+  box-sizing: border-box;
+}
