@@ -4,7 +4,6 @@
 .outer {
   display: flex;
   gap: 60px;
-	padding: 20px;
 	justify-content: center;
 }
 
@@ -16,4 +15,5 @@
   border-radius: 13px;
   background: #d2b48c;
   box-sizing: border-box;
+  word-wrap: break-word;
 }
