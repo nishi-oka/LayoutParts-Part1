@@ -6,7 +6,7 @@ table{
 	background: #319c4a;
 }
 th, td{
-	border:solid 1px #333;
+	border:solid 1px #000000;
 	padding:10px;
 	font-size: 16px;
 }
