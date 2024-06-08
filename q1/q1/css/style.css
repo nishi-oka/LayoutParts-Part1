@@ -1,2 +1,79 @@
 @charset "UTF-8";
 /* 回答はここから */
+body{
+	margin: 0;
+}
+
+/* Q1-1　回答 */
+.white--box1{
+	width: 200px;
+	background:#fff;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.align--box{
+	text-align: center;
+	font-size: 16px;
+	background: #a4b3e9;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.white--box2{
+	width: 200px;
+	background:#fff;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.margin--box{
+	text-align: center;
+	font-size: 16px;
+	background: #a4b3e9;
+	padding: 10px;
+	margin: 20px auto;
+	width: 90px;
+}
+
+/* Q1-2 回答 */
+/* 1.display: table;を使う */
+.q1--perimeter{
+	display: table;
+}
+.table--box{
+	display: table-cell;
+	font-size: 16px;
+	background: #fff; /*display: 〇〇を使って暗めの水色の箱を、と指示があるが完成図にも暗い箱がないため、白い箱に設定*/
+	padding: 10px;
+}
+
+/* 2.display: flexを使う */
+.q1--perimeter{
+	display: flex;
+	justify-content: center;/* 子要素を水平方向に上下中央揃え */
+	align-items: center; /* 子要素を垂直方向に左右中央揃え */
+}
+.flex--box{
+	font-size: 16px;
+	background: #fff; /*display: 〇〇を使って暗めの水色の箱を、と指示があるが完成図にも暗い箱がないため、白い箱に設定*/
+	padding: 10px;
+}
+
+/* 3.positionを使う */
+.q1--position{
+	position:relative;
+}
+.container{
+	width: 250px
+}
+.position--box{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 16px;
+	background: #a4b3e9;
+	padding: 10px;
+}
