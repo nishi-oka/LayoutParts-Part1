@@ -1,1 +1,50 @@
 @charset "UTF-8";
+body{
+	margin:0;
+}
+
+.upper{
+	display: flex;
+	width:100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.red{
+	width:300px;
+	background:#ff7b7b;
+	padding:20px;
+}
+.blue{
+	padding:20px;
+	background: #7b86ff;
+	flex:1;
+}
+.yellow{
+	padding:20px;
+	width:300px;
+	background-color: #fff27b;
+}
+.bottom{
+	display: flex;
+	text-align: center;
+}
+.green{
+	background: #7bff91;
+	padding:20px;
+	flex:1;
+}
+.pink{
+	width:400px;
+	background:#ff7be2;
+	padding:20px;
+}
+.orange{
+	width:400px;
+	background: #ffc67b;
+	padding:20px;
+}
+.skyblue{
+	background: #7bf2ff;
+	padding:20px;
+	flex:1;
+}
